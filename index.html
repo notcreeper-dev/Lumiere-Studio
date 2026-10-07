@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumière Studio | Hair &amp; Beauty Studio</title>
+  <meta name="description"
+    content="Lumière Studio offers personalised hair, color, makeup, treatment, and bridal beauty services in Hanamkonda.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;1,400&family=Figtree:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#home">Lumière Studio</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-solid" href="#book">Book an Appointment</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">LUMIÈRE STUDIO</p>
+        <h1>Style, Refined.</h1>
+        <p class="lead">Thoughtful hair and beauty services designed around your individual style.</p>
+        <div class="actions"><a class="btn btn-solid" href="#book">Book an Appointment</a><a class="btn btn-line"
+            href="#services">Explore Services</a></div>
+      </div>
+      <img src="assets/hero.jpg" width="1600" height="1000"
+        alt="Stylist finishing a client's blow-dry in a bright, calm salon">
+    </section>
+
+    <section class="intro">
+      <h2>Beauty, Personalised.</h2>
+      <p>At Lumière Studio, every appointment begins with understanding your style. From everyday cuts to
+        special-occasion beauty, our team combines thoughtful consultation with professional technique to create a look
+        that feels distinctly yours.</p>
+    </section>
+
+    <section class="section" id="services">
+      <h2>Our Services</h2>
+      <ul class="services">
+        <li><img loading="lazy" src="assets/haircut.jpg" width="800" height="800"
+            alt="Stylist trimming a client's hair with scissors">
+          <h3>Haircuts &amp; Styling</h3>
+          <p>Precision cuts and tailored styling designed around your features, lifestyle, and personal aesthetic.</p>
+          <p class="price">From ₹799</p><a href="#book" data-service="Haircuts & Styling">Book this service</a>
+        </li>
+        <li><img loading="lazy" src="assets/hair-color.jpg" width="800" height="800"
+            alt="Colorist applying hair color to a section of hair">
+          <h3>Hair Color</h3>
+          <p>From subtle refreshes to complete transformations, our color services are tailored to your desired finish.
+          </p>
+          <p class="price">From ₹1,999</p><a href="#book" data-service="Hair Color">Book this service</a>
+        </li>
+        <li><img loading="lazy" src="assets/treatment.jpg" width="800" height="800"
+            alt="Client receiving a conditioning hair treatment">
+          <h3>Hair Treatments</h3>
+          <p>Professional treatments focused on restoring softness, shine, strength, and manageability.</p>
+          <p class="price">From ₹1,299</p><a href="#book" data-service="Hair Treatments">Book this service</a>
+        </li>
+        <li><img loading="lazy" src="assets/makeup.jpg" width="800" height="800"
+            alt="Makeup artist applying eye makeup to a client">
+          <h3>Makeup</h3>
+          <p>Polished makeup looks for celebrations, events, photography, and special occasions.</p>
+          <p class="price">From ₹1,499</p><a href="#book" data-service="Makeup">Book this service</a>
+        </li>
+        <li><img loading="lazy" src="assets/bridal.jpg" width="800" height="800"
+            alt="Bride having her hair styled before a wedding">
+          <h3>Bridal Beauty</h3>
+          <p>Thoughtfully planned hair and makeup services for weddings and important celebrations.</p>
+          <p class="price">From ₹5,999</p><a href="#book" data-service="Bridal Beauty">Book this service</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="split">
+      <img loading="lazy" src="assets/room.jpg" width="1200" height="800"
+        alt="Stylist and client in consultation at the styling station">
+      <div>
+        <h2>The Lumière Experience</h2>
+        <ol class="steps">
+          <li>
+            <h3>Consultation</h3>
+            <p>We talk through your hair, routine, and what you want from the visit.</p>
+          </li>
+          <li>
+            <h3>Personalised service</h3>
+            <p>Technique and products chosen for you, not a fixed menu.</p>
+          </li>
+          <li>
+            <h3>Professional finishing</h3>
+            <p>Styled and checked together before you leave.</p>
+          </li>
+          <li>
+            <h3>Aftercare guidance</h3>
+            <p>Simple advice to keep the result looking good at home.</p>
+          </li>
+        </ol>
+        <a class="btn btn-line" href="#book">Plan your visit</a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div>
+        <h2>About Lumière</h2>
+        <p>Lumière Studio was created around a simple idea: great beauty services should feel personal. Our approach
+          combines thoughtful consultation, modern techniques, and attention to detail in a relaxed studio environment.
+        </p>
+        <dl class="stats">
+          <div>
+            <dt>Experience</dt>
+            <dd>8+ Years</dd>
+          </div>
+          <div>
+            <dt>Senior Stylists</dt>
+            <dd>3</dd>
+          </div>
+          <div>
+            <dt>Consultation</dt>
+            <dd>1:1</dd>
+          </div>
+        </dl>
+      </div>
+      <img loading="lazy" src="assets/room2.jpg" width="1200" height="800"
+        alt="Interior of the studio with styling chairs and natural light">
+    </section>
+
+    <section class="section" id="team">
+      <h2>Meet the Team</h2>
+      <ul class="team">
+        <li><img loading="lazy" src="assets/stylist-1.jpg" width="800" height="800"
+            alt="Portrait of Ananya Kapoor, creative director">
+          <h3>Ananya Kapoor</h3>
+          <p class="role">Creative Director &amp; Senior Stylist</p>
+          <p>Specialises in precision cutting and tailored styling, with over eight years behind the chair.</p>
+        </li>
+        <li><img loading="lazy" src="assets/stylist-2.jpg" width="800" height="800"
+            alt="Portrait of Riya Sharma, color specialist">
+          <h3>Riya Sharma</h3>
+          <p class="role">Hair Color Specialist</p>
+          <p>Focuses on natural-looking color, from soft refreshes to full colour changes.</p>
+        </li>
+        <li><img loading="lazy" src="assets/stylist-3.jpg" width="800" height="800"
+            alt="Portrait of Meera Nair, makeup artist">
+          <h3>Meera Nair</h3>
+          <p class="role">Makeup &amp; Bridal Artist</p>
+          <p>Plans bridal and event looks with trials, so you feel certain well before the day.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="gallery">
+      <h2>A Glimpse of Lumière</h2>
+      <div class="gallery">
+        <img loading="lazy" class="g1" src="assets/style-1.jpg" width="800" height="1000"
+          alt="Long layered haircut with soft waves">
+        <img loading="lazy" class="g2" src="assets/style-2.jpg" width="800" height="1000"
+          alt="Sleek low bun styled for an event">
+        <img loading="lazy" class="g3" src="assets/style-3.jpg" width="800" height="1000"
+          alt="Bridal updo with fresh flowers">
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="t-h">
+      <h2 id="t-h">What Our Clients Say</h2>
+      <div class="quotes">
+        <figure>
+          <blockquote>The consultation made such a difference. I left with a style that actually works for my day-to-day
+            routine.</blockquote>
+          <figcaption>Priya S., Haircut</figcaption>
+        </figure>
+        <figure>
+          <blockquote>The studio is calm, professional, and incredibly attentive. The color result was exactly what I
+            wanted.</blockquote>
+          <figcaption>Sneha R., Hair Color</figcaption>
+        </figure>
+        <figure>
+          <blockquote>I booked my bridal trial here and immediately knew I had found the right team.</blockquote>
+          <figcaption>Divya M., Bridal Beauty</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Your Next Look Starts Here.</h2>
+      <p>Tell us what you're looking for and we'll help you find the right service.</p>
+      <a class="btn btn-light" href="#book">Book an Appointment</a>
+    </section>
+
+    <section class="section book" id="book">
+      <h2>Book an Appointment</h2>
+      <p class="note">Fields marked * are required. This is a demonstration form; nothing is sent or booked.</p>
+      <form id="booking" novalidate>
+        <div class="field"><label for="name">Full Name *</label><input id="name" name="name" autocomplete="name">
+          <p class="error" id="name-error"></p>
+        </div>
+        <div class="field"><label for="phone">Phone Number *</label><input id="phone" name="phone" type="tel"
+            autocomplete="tel">
+          <p class="error" id="phone-error"></p>
+        </div>
+        <div class="field"><label for="email">Email Address *</label><input id="email" name="email" type="email"
+            autocomplete="email">
+          <p class="error" id="email-error"></p>
+        </div>
+        <div class="field"><label for="service">Service *</label>
+          <select id="service" name="service">
+            <option value="">Select a service</option>
+            <option>Haircuts &amp; Styling</option>
+            <option>Hair Color</option>
+            <option>Hair Treatments</option>
+            <option>Makeup</option>
+            <option>Bridal Beauty</option>
+            <option>Not Sure Yet</option>
+          </select>
+          <p class="error" id="service-error"></p>
+        </div>
+        <div class="field"><label for="date">Preferred Date *</label><input id="date" name="date" type="date">
+          <p class="error" id="date-error"></p>
+        </div>
+        <div class="field"><label for="time">Preferred Time *</label><input id="time" name="time" type="time">
+          <p class="error" id="time-error"></p>
+        </div>
+        <div class="field wide"><label for="message">Message *</label><textarea id="message" name="message"
+            rows="4"></textarea>
+          <p class="error" id="message-error"></p>
+        </div>
+        <div class="wide"><button class="btn btn-solid" type="submit">Request Appointment</button></div>
+        <p class="success wide" id="success" role="status" tabindex="-1" hidden>Thank you! Your appointment request has
+          been received. We'll contact you shortly to confirm the details.</p>
+      </form>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Visit the Studio</h2>
+      <div class="card">
+        <h3>Lumière Studio</h3>
+        <address>18 Park Avenue, Hanamkonda, Telangana<br><a href="tel:+919876512345">+91 98765 12345</a><br><a
+            href="mailto:hello@lumiere.example">hello@lumiere.example</a></address>
+        <p>Monday–Saturday: 10:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 5:00 PM</p>
+        <a class="btn btn-line" href="#book">Book an Appointment</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="brand">Lumière Studio</p>
+      <p>Personalised hair and beauty services in Hanamkonda.</p>
+    </div>
+    <nav aria-label="Footer">
+      <h2>Explore</h2><a href="#services">Services</a><a href="#about">About</a><a href="#team">Team</a><a
+        href="#gallery">Gallery</a>
+    </nav>
+    <div>
+      <h2>Contact</h2>
+      <p>18 Park Avenue, Hanamkonda<br>+91 98765 12345<br>hello@lumiere.example</p>
+    </div>
+    <div>
+      <h2>Hours</h2>
+      <p>Mon–Sat 10:00 AM – 8:00 PM<br>Sun 10:00 AM – 5:00 PM</p>
+      <p><a href="#home">Instagram</a> · <a href="#home">Facebook</a></p>
+    </div>
+    <p class="copy">© 2026 Lumière Studio. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
